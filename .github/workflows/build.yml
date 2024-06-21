@@ -3,6 +3,7 @@ name: Pipeline nodejs
 on:
   push:
     branches:
+      - 'feature/*'
       - main
   pull_request:
     branches:
@@ -10,7 +11,7 @@ on:
 
 
 jobs:
-  test:
+  tests:
     runs-on: ubuntu-latest
     strategy:
       matrix:
