@@ -1,4 +1,4 @@
-name: Pipeline nodejs
+name: Pipeline_nodejs
 
 on:
   push:
